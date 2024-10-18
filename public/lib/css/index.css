@@ -1,0 +1,15 @@
+*{
+    font-family: verdana;
+    margin: 5px;
+}
+
+textarea{
+    min-height: 150px;
+    min-width: 150px;
+}
+.td{
+    color:violet;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
