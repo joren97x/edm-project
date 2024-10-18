@@ -194,7 +194,7 @@ function loadToDoList(){
                         <input type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600 rounded focus:ring-0 " 
                                 ${element.completed ? 'checked' : ''} 
                                 onchange="updateTodoStatus(${element.id}, this.checked)" />
-                        <input type="text" class="ml-2 text-gray-700 bg-transparent border-0 focus:ring-0 ${element.completed ? 'line-through underline-offset-2 text-grey-500' : ''}" 
+                        <input style="width: 500px;"  type="text" class="ml-2 text-gray-700 bg-transparent border-0 focus:ring-0 ${element.completed ? 'line-through underline-offset-2' : ''}" 
                             value="${element.TODO}" 
                             onblur="updateToDo(${element.id}, this.value)" />
                     </div>
